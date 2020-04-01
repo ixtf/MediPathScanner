@@ -1,0 +1,28 @@
+prod: false
+version: 1.0.0
+
+smc:
+  ip: 192.168.5.11
+  blockMode: 1
+  beginParking:
+    X: 100000
+    Y: 120000
+    Z: 767258
+  endParking:
+    X: 100000
+    Y: 120000
+    Z: 767258
+
+scan:
+  deviceId: test
+  dataPath: /tmp/MediPathScanner
+
+dahua:
+  viewCamera:
+    ip: 192.168.5.222
+  scanCamera:
+    ip: 192.168.5.8
+
+net:
+  wwwPath: /home/jzb/CLionProjects/MediPathScanner/www
+  port: 8080
